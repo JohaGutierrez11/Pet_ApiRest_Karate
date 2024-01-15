@@ -1,58 +1,20 @@
 Feature: Test for API "PetStore"
   Background: Initial Definition
     Given url "https://petstore.swagger.io/v2/"
+    * def createBody = read('data/createPetBody.json')
+    * def updateBody = read('data/updatePetBody.json')
 
   @First
   Scenario: Add new pet
     Given path 'pet'
-    And request
-    """
-    {
-      "id": 13,
-      "category": {
-        "id": 0,
-        "name": "Dog"
-      },
-      "name": "Draco",
-      "photoUrls": [
-        "string"
-      ],
-      "tags": [
-        {
-          "id": 13,
-          "name": "Draco"
-        }
-      ],
-      "status": "available"
-    }
-    """
+    And request createBody
     When method POST
     Then status 200
 
   @Second
   Scenario: Find pet by ID
     Given path 'pet'
-    And request
-    """
-    {
-      "id": 28,
-      "category": {
-        "id": 23,
-        "name": "Dog"
-      },
-      "name": "Draco",
-      "photoUrls": [
-        "string"
-      ],
-      "tags": [
-        {
-          "id": 13,
-          "name": "Draco"
-        }
-      ],
-      "status": "available"
-    }
-    """
+    And request createBody
     When method POST
     Then status 200
     * def idPet = response.id
@@ -66,40 +28,13 @@ Feature: Test for API "PetStore"
   Scenario: Update name and status of a pet
 
     Given path 'pet'
-    And request
-    """
-    {
-      "id": 433,
-      "category": {
-        "id": 0,
-        "name": "Dog"
-      },
-      "name": "Theo",
-      "photoUrls": [
-        "string"
-      ],
-      "tags": [
-        {
-          "id": 13,
-          "name": "Abby"
-        }
-      ],
-      "status": "available"
-    }
-    """
+    And request createBody
     When method POST
     Then status 200
     * def idPet = response.id
 
     Given path 'pet'
-    And request
-    """
-    {
-      "id": 433,
-      "name": "Abby",
-      "status": "sold"
-    }
-    """
+    And request updateBody
     When method POST
     Then status 200
 
@@ -107,39 +42,12 @@ Feature: Test for API "PetStore"
   Scenario: Find pet by Status
 
     Given path 'pet'
-    And request
-    """
-    {
-      "id": 888,
-      "category": {
-        "id": 2,
-        "name": "Dog"
-      },
-      "name": "ABBY",
-      "photoUrls": [
-        "string"
-      ],
-      "tags": [
-        {
-          "id": 5,
-          "name": "THEO"
-        }
-      ],
-      "status": "available"
-    }
-    """
+    And request createBody
     When method POST
     Then status 200
 
     Given path 'pet'
-    And request
-    """
-    {
-      "id": 888,
-      "name": "THEO",
-      "status": "SOLD"
-    }
-    """
+    And request updateBody
     When method POST
     Then status 200
 
