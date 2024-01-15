@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="pets.ManagementTest" time="7.26" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="pets.ManagementTest" time="6.701" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="EC"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\johag\AppData\Local\Temp\surefire4945817486963386133\surefirebooter-20240114184521879_3.jar C:\Users\johag\AppData\Local\Temp\surefire4945817486963386133 2024-01-14T18-45-21_348-jvmRun1 surefire-20240114184521879_1tmp surefire_0-20240114184521879_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\johag\AppData\Local\Temp\surefire3038281785506946282\surefirebooter-20240114223347786_3.jar C:\Users\johag\AppData\Local\Temp\surefire3038281785506946282 2024-01-14T22-33-47_423-jvmRun1 surefire-20240114223347786_1tmp surefire_0-20240114223347786_2tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\johag\NTTDATA_TEST\Pet_ApiRest_Karate\target\test-classes;C:\Users\johag\NTTDATA_TEST\Pet_ApiRest_Karate\target\classes;C:\Users\johag\.m2\repository\com\intuit\karate\karate-junit5\1.3.1\karate-junit5-1.3.1.jar;C:\Users\johag\.m2\repository\com\intuit\karate\karate-core\1.3.1\karate-core-1.3.1.jar;C:\Users\johag\.m2\repository\org\graalvm\js\js-scriptengine\22.0.0.2\js-scriptengine-22.0.0.2.jar;C:\Users\johag\.m2\repository\org\graalvm\sdk\graal-sdk\22.0.0.2\graal-sdk-22.0.0.2.jar;C:\Users\johag\.m2\repository\org\graalvm\js\js\22.0.0.2\js-22.0.0.2.jar;C:\Users\johag\.m2\repository\org\graalvm\regex\regex\22.0.0.2\regex-22.0.0.2.jar;C:\Users\johag\.m2\repository\org\graalvm\truffle\truffle-api\22.0.0.2\truffle-api-22.0.0.2.jar;C:\Users\johag\.m2\repository\org\thymeleaf\thymeleaf\3.0.14.RELEASE\thymeleaf-3.0.14.RELEASE.jar;C:\Users\johag\.m2\repository\ognl\ognl\3.1.26\ognl-3.1.26.jar;C:\Users\johag\.m2\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;C:\Users\johag\.m2\repository\org\attoparser\attoparser\2.0.5.RELEASE\attoparser-2.0.5.RELEASE.jar;C:\Users\johag\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\johag\.m2\repository\com\linecorp\armeria\armeria\1.18.0\armeria-1.18.0.jar;C:\Users\johag\.m2\repository\io\micrometer\micrometer-core\1.9.2\micrometer-core-1.9.2.jar;C:\Users\johag\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.12\HdrHistogram-2.1.12.jar;C:\Users\johag\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\johag\.m2\repository\io\netty\netty-transport\4.1.79.Final\netty-transport-4.1.79.Final.jar;C:\Users\johag\.m2\repository\io\netty\netty-common\4.1.79.Final\netty-common-4.1.79.Final.jar;C:\Users\johag\.m2\repository\io\netty\netty-buffer\4.1.79.Final\netty-buffer-4.1.79.Final.jar;C:\Users\johag\.m2\repository\io\netty\netty-resolver\4.1.79.Final\netty-resolver-4.1.79.Final.jar;C:\Users\johag\.m2\repository\io\netty\netty-codec-haproxy\4.1.79.Final\netty-codec-haproxy-4.1.79.Final.jar;C:\Users\johag\.m2\repository\io\netty\netty-codec\4.1.79.Final\netty-codec-4.1.79.Final.jar;C:\Users\johag\.m2\repository\io\netty\netty-codec-http2\4.1.79.Final\netty-codec-http2-4.1.79.Final.jar;C:\Users\johag\.m2\repository\io\netty\netty-handler\4.1.79.Final\netty-handler-4.1.79.Final.jar;C:\Users\johag\.m2\repository\io\netty\netty-codec-http\4.1.79.Final\netty-codec-http-4.1.79.Final.jar;C:\Users\johag\.m2\repository\io\netty\netty-resolver-dns\4.1.79.Final\netty-resolver-dns-4.1.79.Final.jar;C:\Users\johag\.m2\repository\io\netty\netty-codec-dns\4.1.79.Final\netty-codec-dns-4.1.79.Final.jar;C:\Users\johag\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\johag\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\johag\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.79.Final\netty-transport-native-unix-common-4.1.79.Final-linux-x86_64.jar;C:\Users\johag\.m2\repository\io\netty\netty-transport-native-epoll\4.1.79.Final\netty-transport-native-epoll-4.1.79.Final-linux-x86_64.jar;C:\Users\johag\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.79.Final\netty-transport-native-unix-common-4.1.79.Final.jar;C:\Users\johag\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.79.Final\netty-transport-classes-epoll-4.1.79.Final.jar;C:\Users\johag\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.79.Final\netty-resolver-dns-native-macos-4.1.79.Final-osx-x86_64.jar;C:\Users\johag\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.79.Final\netty-resolver-dns-classes-macos-4.1.79.Final.jar;C:\Users\johag\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.79.Final\netty-resolver-dns-native-macos-4.1.79.Final-osx-aarch_64.jar;C:\Users\johag\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.53.Final\netty-tcnative-boringssl-static-2.0.53.Final-linux-x86_64.jar;C:\Users\johag\.m2\repository\io\netty\netty-tcnative-classes\2.0.53.Final\netty-tcnative-classes-2.0.53.Final.jar;C:\Users\johag\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.53.Final\netty-tcnative-boringssl-static-2.0.53.Final-linux-aarch_64.jar;C:\Users\johag\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.53.Final\netty-tcnative-boringssl-static-2.0.53.Final-osx-x86_64.jar;C:\Users\johag\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.53.Final\netty-tcnative-boringssl-static-2.0.53.Final-osx-aarch_64.jar;C:\Users\johag\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.53.Final\netty-tcnative-boringssl-static-2.0.53.Final-windows-x86_64.jar;C:\Users\johag\.m2\repository\io\netty\netty-handler-proxy\4.1.79.Final\netty-handler-proxy-4.1.79.Final.jar;C:\Users\johag\.m2\repository\io\netty\netty-codec-socks\4.1.79.Final\netty-codec-socks-4.1.79.Final.jar;C:\Users\johag\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.7.1\brotli4j-1.7.1.jar;C:\Users\johag\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.7.1\native-windows-x86_64-1.7.1.jar;C:\Users\johag\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\johag\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\johag\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\johag\.m2\repository\ch\qos\logback\logback-classic\1.2.9\logback-classic-1.2.9.jar;C:\Users\johag\.m2\repository\ch\qos\logback\logback-core\1.2.9\logback-core-1.2.9.jar;C:\Users\johag\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.32\jcl-over-slf4j-1.7.32.jar;C:\Users\johag\.m2\repository\org\antlr\antlr4-runtime\4.9.3\antlr4-runtime-4.9.3.jar;C:\Users\johag\.m2\repository\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar;C:\Users\johag\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\johag\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\johag\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\johag\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\johag\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\johag\.m2\repository\org\yaml\snakeyaml\1.32\snakeyaml-1.32.jar;C:\Users\johag\.m2\repository\de\siegmar\fastcsv\2.0.0\fastcsv-2.0.0.jar;C:\Users\johag\.m2\repository\info\picocli\picocli\4.6.1\picocli-4.6.1.jar;C:\Users\johag\.m2\repository\io\github\classgraph\classgraph\4.8.149\classgraph-4.8.149.jar;C:\Users\johag\.m2\repository\io\github\t12y\resemble\1.0.2\resemble-1.0.2.jar;C:\Users\johag\.m2\repository\io\github\t12y\ssim\1.0.0\ssim-1.0.0.jar;C:\Users\johag\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\johag\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\johag\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\johag\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\johag\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\johag\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;C:\Users\johag\.m2\repository\net\masterthought\cucumber-reporting\5.5.2\cucumber-reporting-5.5.2.jar;C:\Users\johag\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.1\jackson-databind-2.12.1.jar;C:\Users\johag\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.1\jackson-annotations-2.12.1.jar;C:\Users\johag\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.1\jackson-core-2.12.1.jar;C:\Users\johag\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.1\jackson-datatype-jsr310-2.12.1.jar;C:\Users\johag\.m2\repository\org\apache\velocity\velocity-engine-core\2.2\velocity-engine-core-2.2.jar;C:\Users\johag\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\johag\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\johag\.m2\repository\joda-time\joda-time\2.10.9\joda-time-2.10.9.jar;C:\Users\johag\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\johag\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\johag\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\johag\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\johag\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20200713.1\owasp-java-html-sanitizer-20200713.1.jar;C:\Users\johag\.m2\repository\com\google\guava\guava\27.1-jre\guava-27.1-jre.jar;C:\Users\johag\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\johag\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\johag\.m2\repository\org\checkerframework\checker-qual\2.5.2\checker-qual-2.5.2.jar;C:\Users\johag\.m2\repository\com\google\errorprone\error_prone_annotations\2.2.0\error_prone_annotations-2.2.0.jar;C:\Users\johag\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\johag\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.17\animal-sniffer-annotations-1.17.jar;C:\Users\johag\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\johag\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\johag\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\johag"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\johag\AppData\Local\Temp\surefire4945817486963386133\surefirebooter-20240114184521879_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\johag\AppData\Local\Temp\surefire3038281785506946282\surefirebooter-20240114223347786_3.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,34 +60,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testParallel" classname="pets.ManagementTest" time="7.229">
-    <system-out><![CDATA[18:45:24.237 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-18:45:24.246 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1705275924243
-18:45:25.591 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
-18:45:25.624 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
-18:45:25.630 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
-18:45:25.640 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
-18:45:26.625 [pool-2-thread-3] DEBUG com.intuit.karate - request:
-1 > POST https://petstore.swagger.io/v2/pet
-1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 134
-1 > Host: petstore.swagger.io
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
-1 > Accept-Encoding: gzip,deflate
-{"id":433,"category":{"id":0,"name":"Dog"},"name":"Theo","photoUrls":["string"],"tags":[{"id":13,"name":"Abby"}],"status":"available"}
-
-18:45:26.625 [pool-2-thread-2] DEBUG com.intuit.karate - request:
-1 > POST https://petstore.swagger.io/v2/pet
-1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 136
-1 > Host: petstore.swagger.io
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
-1 > Accept-Encoding: gzip,deflate
-{"id":28,"category":{"id":23,"name":"Dog"},"name":"Draco","photoUrls":["string"],"tags":[{"id":13,"name":"Draco"}],"status":"available"}
-
-18:45:26.625 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+  <testcase name="testParallel" classname="pets.ManagementTest" time="6.681">
+    <system-out><![CDATA[22:33:49.562 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:33:49.569 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1705289629568
+22:33:50.928 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+22:33:50.960 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+22:33:50.968 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+22:33:50.976 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+22:33:51.827 [pool-2-thread-4] DEBUG com.intuit.karate - request:
 1 > POST https://petstore.swagger.io/v2/pet
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 133
@@ -97,7 +77,27 @@
 1 > Accept-Encoding: gzip,deflate
 {"id":888,"category":{"id":2,"name":"Dog"},"name":"ABBY","photoUrls":["string"],"tags":[{"id":5,"name":"THEO"}],"status":"available"}
 
-18:45:26.625 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+22:33:51.827 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 136
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 > Accept-Encoding: gzip,deflate
+{"id":28,"category":{"id":23,"name":"Dog"},"name":"Draco","photoUrls":["string"],"tags":[{"id":13,"name":"Draco"}],"status":"available"}
+
+22:33:51.827 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 134
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 > Accept-Encoding: gzip,deflate
+{"id":433,"category":{"id":0,"name":"Dog"},"name":"Theo","photoUrls":["string"],"tags":[{"id":13,"name":"Abby"}],"status":"available"}
+
+22:33:51.827 [pool-2-thread-1] DEBUG com.intuit.karate - request:
 1 > POST https://petstore.swagger.io/v2/pet
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 135
@@ -107,33 +107,9 @@
 1 > Accept-Encoding: gzip,deflate
 {"id":13,"category":{"id":0,"name":"Dog"},"name":"Draco","photoUrls":["string"],"tags":[{"id":13,"name":"Draco"}],"status":"available"}
 
-18:45:27.379 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 748
+22:33:52.740 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 913
 1 < 200
-1 < Date: Sun, 14 Jan 2024 23:45:26 GMT
-1 < Content-Type: application/json
-1 < Transfer-Encoding: chunked
-1 < Connection: keep-alive
-1 < Access-Control-Allow-Origin: *
-1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
-1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
-1 < Server: Jetty(9.2.9.v20150224)
-{"id":13,"category":{"id":0,"name":"Dog"},"name":"Draco","photoUrls":["string"],"tags":[{"id":13,"name":"Draco"}],"status":"available"}
-
-18:45:27.379 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 749
-1 < 200
-1 < Date: Sun, 14 Jan 2024 23:45:26 GMT
-1 < Content-Type: application/json
-1 < Transfer-Encoding: chunked
-1 < Connection: keep-alive
-1 < Access-Control-Allow-Origin: *
-1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
-1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
-1 < Server: Jetty(9.2.9.v20150224)
-{"id":433,"category":{"id":0,"name":"Dog"},"name":"Theo","photoUrls":["string"],"tags":[{"id":13,"name":"Abby"}],"status":"available"}
-
-18:45:27.379 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 749
-1 < 200
-1 < Date: Sun, 14 Jan 2024 23:45:26 GMT
+1 < Date: Mon, 15 Jan 2024 03:33:52 GMT
 1 < Content-Type: application/json
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
@@ -143,9 +119,33 @@
 1 < Server: Jetty(9.2.9.v20150224)
 {"id":888,"category":{"id":2,"name":"Dog"},"name":"ABBY","photoUrls":["string"],"tags":[{"id":5,"name":"THEO"}],"status":"available"}
 
-18:45:27.379 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 749
+22:33:52.740 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 913
 1 < 200
-1 < Date: Sun, 14 Jan 2024 23:45:26 GMT
+1 < Date: Mon, 15 Jan 2024 03:33:52 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":433,"category":{"id":0,"name":"Dog"},"name":"Theo","photoUrls":["string"],"tags":[{"id":13,"name":"Abby"}],"status":"available"}
+
+22:33:52.745 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 918
+1 < 200
+1 < Date: Mon, 15 Jan 2024 03:33:52 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":13,"category":{"id":0,"name":"Dog"},"name":"Draco","photoUrls":["string"],"tags":[{"id":13,"name":"Draco"}],"status":"available"}
+
+22:33:52.745 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 918
+1 < 200
+1 < Date: Mon, 15 Jan 2024 03:33:52 GMT
 1 < Content-Type: application/json
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
@@ -155,7 +155,7 @@
 1 < Server: Jetty(9.2.9.v20150224)
 {"id":28,"category":{"id":23,"name":"Dog"},"name":"Draco","photoUrls":["string"],"tags":[{"id":13,"name":"Draco"}],"status":"available"}
 
-18:45:27.393 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+22:33:52.747 [pool-2-thread-4] DEBUG com.intuit.karate - request:
 2 > POST https://petstore.swagger.io/v2/pet
 2 > Content-Type: application/json; charset=UTF-8
 2 > Content-Length: 40
@@ -163,9 +163,9 @@
 2 > Connection: Keep-Alive
 2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
 2 > Accept-Encoding: gzip,deflate
-{"id":888,"name":"THEO","status":"sold"}
+{"id":888,"name":"THEO","status":"SOLD"}
 
-18:45:27.409 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+22:33:52.755 [pool-2-thread-3] DEBUG com.intuit.karate - request:
 2 > POST https://petstore.swagger.io/v2/pet
 2 > Content-Type: application/json; charset=UTF-8
 2 > Content-Length: 40
@@ -175,7 +175,7 @@
 2 > Accept-Encoding: gzip,deflate
 {"id":433,"name":"Abby","status":"sold"}
 
-18:45:27.422 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+22:33:52.762 [pool-2-thread-2] DEBUG com.intuit.karate - request:
 2 > GET https://petstore.swagger.io/v2/pet/28
 2 > Host: petstore.swagger.io
 2 > Connection: Keep-Alive
@@ -183,9 +183,9 @@
 2 > Accept-Encoding: gzip,deflate
 
 
-18:45:27.677 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 283
+22:33:53.014 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 266
 2 < 200
-2 < Date: Sun, 14 Jan 2024 23:45:27 GMT
+2 < Date: Mon, 15 Jan 2024 03:33:52 GMT
 2 < Content-Type: application/json
 2 < Transfer-Encoding: chunked
 2 < Connection: keep-alive
@@ -193,9 +193,9 @@
 2 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
 2 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 2 < Server: Jetty(9.2.9.v20150224)
-{"id":888,"name":"THEO","photoUrls":[],"tags":[],"status":"sold"}
+{"id":888,"name":"THEO","photoUrls":[],"tags":[],"status":"SOLD"}
 
-18:45:27.690 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+22:33:53.022 [pool-2-thread-4] DEBUG com.intuit.karate - request:
 3 > GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
 3 > Host: petstore.swagger.io
 3 > Connection: Keep-Alive
@@ -203,9 +203,9 @@
 3 > Accept-Encoding: gzip,deflate
 
 
-18:45:27.695 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 284
+22:33:53.023 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 268
 2 < 200
-2 < Date: Sun, 14 Jan 2024 23:45:27 GMT
+2 < Date: Mon, 15 Jan 2024 03:33:52 GMT
 2 < Content-Type: application/json
 2 < Transfer-Encoding: chunked
 2 < Connection: keep-alive
@@ -215,9 +215,9 @@
 2 < Server: Jetty(9.2.9.v20150224)
 {"id":433,"name":"Abby","photoUrls":[],"tags":[],"status":"sold"}
 
-18:45:27.704 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 282
+22:33:53.044 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 282
 2 < 200
-2 < Date: Sun, 14 Jan 2024 23:45:27 GMT
+2 < Date: Mon, 15 Jan 2024 03:33:52 GMT
 2 < Content-Type: application/json
 2 < Transfer-Encoding: chunked
 2 < Connection: keep-alive
@@ -227,9 +227,9 @@
 2 < Server: Jetty(9.2.9.v20150224)
 {"id":28,"category":{"id":23,"name":"Dog"},"name":"Draco","photoUrls":["string"],"tags":[{"id":13,"name":"Draco"}],"status":"available"}
 
-18:45:27.981 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 289
+22:33:53.297 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 274
 3 < 200
-3 < Date: Sun, 14 Jan 2024 23:45:27 GMT
+3 < Date: Mon, 15 Jan 2024 03:33:52 GMT
 3 < Content-Type: application/json
 3 < Transfer-Encoding: chunked
 3 < Connection: keep-alive
@@ -237,18 +237,18 @@
 3 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
 3 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 3 < Server: Jetty(9.2.9.v20150224)
-[{"id":49199499,"category":{"id":20305865,"name":"et cupidatat nisi incididunt"},"name":"doggie","photoUrls":["sunt esse consequat","Ut nostrud anim adipisicing"],"tags":[{"id":33995919,"name":"tempor non nostrud"},{"id":-54707686,"name":"qui pariatur"}],"status":"sold"},{"id":9223372036854574120,"category":{"id":-13727801,"name":"fish"},"name":"nemo","photoUrls":["est irure ad","https://icdn.lenta.ru/images/2017/09/01/17/20170901174458404/detail_c21173bdfcc5e339555293d696128592.jpg"],"tags":[{"id":-3288814,"name":"in officia sit sunt"},{"id":-53146769,"name":"voluptate cillum"}],"status":"sold"},{"id":9223372036854287,"category":{"id":-13727801,"name":"fishs"},"name":"nemar","photoUrls":["est irure ad","https://icdn.lenta.ru/images/2017/09/01/17/20170901174458404/detail_c21173bdfcc5e339555293d696128592.jpg"],"tags":[{"id":-3288814,"name":"in officia sit sunt"},{"id":-53146769,"name":"voluptate cillum"}],"status":"sold"},{"id":36872199,"category":{"id":87131763,"name":"consectetur"},"name":"doggie","photoUrls":["officia","fugiat Duis sint"],"tags":[{"id":-32111804,"name":"sit consectetur"},{"id":-4313164,"name":"consectetur nulla laborum id"}],"status":"sold"},{"id":463,"name":"NombreActualizado","photoUrls":[],"tags":[],"status":"sold"},{"id":9223372036854574206,"category":{"id":-7676925,"name":"elit ut voluptate"},"name":"doggie","photoUrls":["consectetur","in ipsum sit est reprehenderit"],"tags":[{"id":-27582928,"name":"Lorem"},{"id":-5257316,"name":"nostrud reprehenderit enim labore"}],"status":"sold"},{"id":50,"category":{"id":2,"name":"dog_category50"},"name":"dognamesold","photoUrls":["string"],"tags":[{"id":51,"name":"dognamesold"}],"status":"sold"},{"id":888,"name":"THEO","photoUrls":[],"tags":[],"status":"sold"},{"id":433,"name":"Abby","photoUrls":[],"tags":[],"status":"sold"}]
+[{"id":9223372016900012462,"category":{"id":0,"name":"myItem"},"name":"MyTestDog","photoUrls":["https://gods-and-demons.fandom.com/wiki/Lernaean_Hydra?file=Venture_the_fog_hydra_by_darkcloud013_dbpdkjn-fullview.jpg"],"tags":[{"id":0,"name":"myItem"}],"status":"sold"},{"id":433,"name":"Abby","photoUrls":[],"tags":[],"status":"sold"}]
 
 ---------------------------------------------------------
 feature: classpath:pets/generalTestCase.feature
-scenarios:  4 | passed:  4 | failed:  0 | time: 8,2094
+scenarios:  4 | passed:  4 | failed:  0 | time: 8,2189
 ---------------------------------------------------------
 
-18:45:29.104 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:pets/generalTestCase.feature
+22:33:54.201 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:pets/generalTestCase.feature
 Karate version: 1.3.1
 ======================================================
-elapsed:   6,06 | threads:    5 | thread time: 8,21 
-features:     1 | skipped:    0 | efficiency: 0,27
+elapsed:   5,48 | threads:    5 | thread time: 8,22 
+features:     1 | skipped:    0 | efficiency: 0,30
 scenarios:    4 | passed:     4 | failed: 0
 ======================================================
 
@@ -257,7 +257,7 @@ file:///C:/Users/johag/NTTDATA_TEST/Pet_ApiRest_Karate/target/karate-reports/kar
 ===================================================================
 
 ]]></system-out>
-    <system-err><![CDATA[Jan 14, 2024 6:45:29 PM net.masterthought.cucumber.ReportParser parseJsonFiles
+    <system-err><![CDATA[Jan 14, 2024 10:33:54 PM net.masterthought.cucumber.ReportParser parseJsonFiles
 INFO: File 'C:\Users\johag\NTTDATA_TEST\Pet_ApiRest_Karate\target\karate-reports\pets.generalTestCase.json' contains 1 features
 ]]></system-err>
   </testcase>

@@ -9,10 +9,7 @@ public class PetsRunner {
     }
 
     @Karate.Test
-    Karate firstTestCase(){
-        return Karate.run().tags("@First").relativeTo(getClass());
-    }
-
+    Karate firstTestCase(){ return Karate.run().tags("@First").relativeTo(getClass());}
     @Karate.Test
     Karate secondTestCase(){
         return Karate.run().tags("@Second").relativeTo(getClass());

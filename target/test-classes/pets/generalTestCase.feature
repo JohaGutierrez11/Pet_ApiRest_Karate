@@ -137,13 +137,13 @@ Feature: Test for API "PetStore"
     {
       "id": 888,
       "name": "THEO",
-      "status": "sold"
+      "status": "SOLD"
     }
     """
     When method POST
     Then status 200
 
-    Given params {status:sold}
+    Given params {status:reset}
     Given path 'pet/findByStatus'
     When method GET
     Then status 200
