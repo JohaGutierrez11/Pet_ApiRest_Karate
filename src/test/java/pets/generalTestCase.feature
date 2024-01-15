@@ -137,7 +137,7 @@ Feature: Test for API "PetStore"
     {
       "id": 888,
       "name": "THEO",
-      "status": "sold"
+      "status": "SOLD"
     }
     """
     When method POST
