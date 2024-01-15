@@ -26,7 +26,7 @@ Las tecnologias que se utilizaron para este proyectos son
 El proyecto se encuentra en GitHub, para clonar el repositorio de debe realizar los siguientes pasos: 
 ```
 $ cd ../path/to/the/file
-$ git clone https://example.com
+$ git clone https://github.com/JohaGutierrez11/Pet_ApiRest_Karate.git
 ```
 Información adicional: Para concluir la instalación del proyecto, se debe:
 ```
