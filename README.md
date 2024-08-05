@@ -1,7 +1,7 @@
 ## Tabla de contenido
 1. [Información general](#info-general)
 2. [Tecnologías](#tecnologias)
-3. [Installación](#instalacion)
+3. [Instalación](#instalacion)
 4. [Instrucciones para ejecutar los test](#ejec-test)
 5. [Colaboración](#colaboracion)
 
@@ -13,13 +13,13 @@ El presente proyecto utiliza el framework Karate para realizar pruebas automatiz
 * Buscar por ID
 * Modificar nombre y estado de la mascota
 * Buscar por estado
-## Technologies
+## Tecnologias
 ***
 Las tecnologias que se utilizaron para este proyectos son
 * Máquina local, con sistema Operativo Windows 11
 * [IntelliJ IDEA 2023.1.5](https://www.jetbrains.com/idea/download/?section=windows): Version 17.0.7
 * [JDK](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html): Version 1.8
-* [Maven](https://maven.apache.org/docs/3.9.2/release-notes.html)): Version 3.9.2
+* [Maven](https://maven.apache.org/docs/3.9.2/release-notes.html): Version 3.9.2
 * Karate: Version 1.3.1
 ## Instalación
 ***
