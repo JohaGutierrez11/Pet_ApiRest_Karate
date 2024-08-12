@@ -56,6 +56,10 @@ mvn test
 ```
  mvn test -Dtest=PetsRunner#fourthTestCase
 ```
+* Ubicación del reporte
+```
+ target/karate-reports/karate-summary.html
+```
 ## Colaboración
 ***
 Para realizar el proyecto se utilizaron las siguientes fuentes.
