@@ -22,4 +22,9 @@ public class PetsRunner {
     Karate fourthTestCase(){
         return Karate.run().tags("@Fourth").relativeTo(getClass());
     }
+    @Karate.Test
+    Karate fifthTestCase(){
+        return Karate.run().tags("@Fifth").relativeTo(getClass());
+    }
+
 }

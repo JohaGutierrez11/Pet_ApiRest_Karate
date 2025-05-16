@@ -55,3 +55,16 @@ Feature: Test for API "PetStore"
     Given path 'pet/findByStatus'
     When method GET
     Then status 200
+
+    @Fifth
+    Scenario: Remove a pet
+
+      Given path 'pet'
+      And request createBody
+      When method POST
+      Then status 200
+      * def idPet = response.id
+
+      Given path 'pet',idPet
+      When method DELETE
+      Then status 200

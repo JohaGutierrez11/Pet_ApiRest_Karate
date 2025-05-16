@@ -56,6 +56,11 @@ mvn test
 ```
  mvn test -Dtest=PetsRunner#fourthTestCase
 ```
+* Ejecutar quinto caso de prueba:
+```
+ mvn test -Dtest=PetsRunner#fifthTestCase
+```
+
 * Ubicación del reporte
 ```
  target/karate-reports/karate-summary.html
